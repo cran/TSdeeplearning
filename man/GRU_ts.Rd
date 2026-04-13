@@ -59,7 +59,7 @@ Cho, K., Van Merriënboer, B., Bahdanau, D. and Bengio, Y. (2014). On the proper
 LSTM, RNN
 }
 \examples{
-\donttest{
+\dontrun{
 data("Data_Maize")
 GRU_ts(Data_Maize)
 }

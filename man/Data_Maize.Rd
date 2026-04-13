@@ -24,6 +24,9 @@ https://www.worldbank.org/en/research/commodity-markets
 https://www.worldbank.org/en/research/commodity-markets
 }
 \examples{
-data(Data_Maize)
+\dontrun{
+data("Data_Maize")
+GRU_ts(Data_Maize)
+}
 }
 \keyword{datasets}

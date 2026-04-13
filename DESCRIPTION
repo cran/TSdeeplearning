@@ -1,7 +1,7 @@
 Package: TSdeeplearning
 Type: Package
 Title: Deep Learning Model for Time Series Forecasting
-Version: 0.1.0
+Version: 1.0.1
 Authors@R: 
   c(person(given = "Ronit",
          family = "Jaiswal",
@@ -17,19 +17,26 @@ Authors@R:
          family = "Choudhary",
          role = c("aut", "ctb")))
 Maintainer: Ronit Jaiswal <ronitjaiswal2912@gmail.com>
-Description: RNNs are preferred for sequential data like time series, speech, text, etc. but when dealing with long range dependencies, vanishing gradient problems account for their poor performance. LSTM and GRU are effective solutions which are nothing but RNN networks with the abilities of learning both short-term and long-term dependencies. Their structural makeup enables them to remember information for a long period without any difficulty. LSTM consists of one cell state and three gates, namely, forget gate, input gate and output gate whereas GRU comprises only two gates, namely, reset gate and update gate. This package consists of three different functions for the application of RNN, LSTM and GRU to any time series data for its forecasting. For method details see Jaiswal, R. et al. (2022). <doi:10.1007/s00521-021-06621-3>. 
+Description: Provides deep learning models for time series forecasting 
+    using Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), 
+    and Gated Recurrent Unit (GRU). These models capture temporal 
+    dependencies and address vanishing gradient issues in sequential data. 
+    The package enables efficient forecasting for univariate time series. 
+    For methodological details see Jaiswal and co-authors (2022). 
+    <doi:10.1007/s00521-021-06621-3>. 
+Language: en-US
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.1
-Imports: keras, tensorflow, reticulate, tsutils, BiocGenerics, utils,
+RoxygenNote: 7.2.3
+Imports: tensorflow, keras, reticulate, tsutils, BiocGenerics, utils,
         graphics, magrittr
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2022-09-08 11:50:23 UTC; kapil
+Packaged: 2026-04-12 02:52:02 UTC; kapil
 Author: Ronit Jaiswal [aut, cre],
   Girish Kumar Jha [aut, ths, ctb],
   Rajeev Ranjan Kumar [aut, ctb],
   Kapil Choudhary [aut, ctb]
 Repository: CRAN
-Date/Publication: 2022-09-09 07:33:00 UTC
+Date/Publication: 2026-04-13 07:20:15 UTC

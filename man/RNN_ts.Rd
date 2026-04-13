@@ -65,7 +65,7 @@ Jaiswal, R., Jha, G. K., Kumar, R. R. and Choudhary, K. (2022). Deep long short-
 LSTM, GRU
 }
 \examples{
-\donttest{
+\dontrun{
 data("Data_Maize")
 RNN_ts(Data_Maize)
 }
